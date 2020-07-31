@@ -1,0 +1,45 @@
+div {
+    height: 1000px;
+    color: white;
+    background-color: white;
+    border: 1px solid black;
+}
+
+div:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Roboto-Italic.ttf);
+}
+
+* {
+    font-family: myFirstFont;
+}
+
+.h1 {
+    background-color: red;
+}
+
+.h2 {
+    background-color: yellow;
+}
+
+.h3 {
+    background-color: blue;
+}
+
+.h4 {
+    background-color: green;
+}
+
+.h5 {
+    background-color: purple;
+}
+
+.h6 {
+    background-color: brown;
+}
