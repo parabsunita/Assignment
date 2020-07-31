@@ -1,0 +1,46 @@
+/*button*/
+
+button {
+    display: block;
+    background-color: #3652f4;
+    padding: 12px 28px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+    color: black;
+}
+
+
+/* button hover effect*/
+
+button:hover {
+    background-color: white;
+    color: #3652f4;
+    border-color: black;
+}
+
+
+/*div design*/
+
+div {
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 20px solid white;
+    font-size: 16px;
+    width: 1200px;
+    padding-left: 25px;
+}
+
+
+/* backgrond color for instruction div*/
+
+.div1 {
+    background-color: #cddfef;
+}
+
+
+/* backgrond color for alert msg div*/
+
+.div2 {
+    background-color: #86e5c8;
+}
