@@ -1,0 +1,27 @@
+@font-face {
+    font-family: robotto;
+    src: url("roboto.italic.ttf");
+}
+
+p {
+    display: inline;
+    padding: 30px;
+    font-size: 15px;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    font-family: robotto;
+    font-size: 15px;
+}
+
+div {
+    color: #ffffff;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+}
