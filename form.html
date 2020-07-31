@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+</head>
+
+<body>
+    <div>
+        <h3 style="text-align: center;"> HTML Form</h3>
+
+        <form>
+            <!--Name-->
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <!--address-->
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="20">
+            </textarea><br>
+
+            <!--Gmail:-->
+            <label for="email">Enter your email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+
+
+
+            <!--gender-->
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            <!--degree-->
+            <label for="degree"> Degree</label><br>
+            <input type="checkbox" id="BA" name="degree" value="BA">
+            <label for="BA"> BA</label><br>
+            <input type="checkbox" id="BCom" name="degree" value="BCom">
+            <label for="Bcom"> BCom</label><br>
+            <input type="checkbox" id="BSc" name="degree" value="BSc">
+            <label for="BSc">BSc</label><br><br>
+
+            <!--dropdownlist-->
+            <label for="subject">Choose a  Subject:</label><br>
+
+            <select name="subject" id="subject">
+        <option value="chemistry">Chemistry</option>
+        <option value="physics">Physics</option>
+        <option value="Biology">Biology</option>
+        <option value="IT">Information Technology</option>
+        </select><br><br>
+
+
+            <!--submit--><br>
+
+            <input type="submit" value="Submit">
+            <!--reset-->
+            <input type="submit" value="Reset">
+        </form>
+        <!--list-->
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+        <ol type="I">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        <ul style="list-style-type:square;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+    </div>
+</body>
+
+</html>
