@@ -1,0 +1,25 @@
+/* address*/
+
+textarea {
+    resize: none;
+}
+
+
+/*list*/
+
+ol,
+ul {
+    display: inline-block;
+}
+
+
+/*form*/
+
+div {
+    background-color: lightblue;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 17px;
+}
