@@ -1,0 +1,139 @@
+    .box {
+        box-sizing: border-box;
+    }
+    
+    html * {
+        font-size: 12px;
+        font-family: "Arial,sans-serif;";
+        font-weight: bolder;
+        font-style: normal;
+    }
+    
+    body {
+        background-color: black;
+    }
+    /* main container */
+    
+    .maincontainer {
+        margin: 0 auto;
+        display: flex;
+        height: 500px;
+        width: 60%;
+        background-color: white;
+    }
+    /* navigation bar in subcontainer*/
+    
+    .navsection {
+        height: 100%;
+        background-color: hsl(0, 0%, 100%);
+    }
+    /* upper section of subcontainer1*/
+    
+    .uppersection {
+        height: 15%;
+        background-color: hsl(0, 0%, 100%);
+    }
+    /* lower section of subcontainer1*/
+    
+    .lowersection {
+        background-color: rgb(240, 234, 234);
+        height: 85%;
+        padding: 50px;
+        width: 100%;
+    }
+    
+    .subcontainer1 {
+        width: 100%;
+        box-sizing: content-box;
+    }
+    
+    .subcontainer {
+        width: 10%;
+        border-right: 2px solid rgb(241, 240, 240);
+        box-shadow: 15px 0px 20px -15px rgb(119, 118, 118);
+        position: relative;
+    }
+    
+    .lessondetails {
+        height: 50%;
+        padding: 10%;
+        font-size: 10PX;
+    }
+    /* url input for lesson*/
+    
+    input[type="url"] {
+        width: 100%;
+        height: 15%;
+        border-radius: 10px;
+        border: none;
+        color: rgb(109, 105, 105);
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+    /* upload button*/
+    
+    .upload {
+        height: 70%;
+        width: 20%;
+        background-color: white;
+        border: none;
+        color: black;
+    }
+    
+    p {
+        text-align: center;
+        color: #858383;
+        margin: 0;
+    }
+    /* vertical tex align for image text*/
+    
+    .verticaltextalign {
+        vertical-align: middle;
+        height: 20px;
+        width: 20px;
+    }
+    /* video button*/
+    
+    .videocontainer {
+        color: #979898;
+        border: none;
+        padding: 5px;
+        background-color: rgb(240, 234, 234);
+        font-size: 14px;
+    }
+    /*icon*/
+    
+    .icon {
+        height: 30px;
+        width: 30px;
+    }
+    /* logo */
+    
+    .logo {
+        height: 80px;
+        width: 50px;
+    }
+    
+    span {
+        text-align: center;
+        display: block;
+        height: 60px;
+        padding: 10px;
+    }
+    
+    .videocontainer:hover,
+    .upload:hover {
+        background-color: rgb(228, 222, 222);
+        color: black;
+    }
+    
+    span:hover {
+        background-color: rgb(188, 229, 248);
+        border-left: 5px solid rgb(67, 185, 240);
+        cursor: pointer;
+    }
+    
+    .spanbottomborder {
+        border-bottom: 3px solid rgb(218, 218, 218);
+        height: 70px;
+    }
